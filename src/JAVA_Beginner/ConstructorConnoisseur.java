@@ -14,7 +14,7 @@ public class ConstructorConnoisseur {
 	}
 	
 	public static void main(String[] args) {
-		//int a = 10;
+		
 		ConstructorConnoisseur outer  = new ConstructorConnoisseur();
 	
 		ConstructorConnoisseur.inside inner = outer.new inside(9);
