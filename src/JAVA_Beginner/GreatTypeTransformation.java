@@ -7,7 +7,7 @@ public class GreatTypeTransformation {
 		double b = 99.999;
 		int a ;
 		a= (int) b;
-		System.out.println("convert"+a);
+		System.out.println("convert  "+a);
 	}
 
 }
