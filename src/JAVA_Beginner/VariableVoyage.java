@@ -9,7 +9,7 @@ public class VariableVoyage {
 		a=340;
 		b=120;
 		sum = a+b;
-		System.out.println("addition"+sum);
+		System.out.println("addition  "+sum);
 		
 	}
 
