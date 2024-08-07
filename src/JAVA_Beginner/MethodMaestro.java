@@ -4,12 +4,13 @@ public class MethodMaestro {
 
 	public class innerClass{
 		
-		public void square(int i)
+		public int square(int i)
 		{
 			int sqare = i * i;
 			 
 			System.out.println(i + " sqare is "+sqare);
 			
+			return sqare;
 		}
 		
 	}
