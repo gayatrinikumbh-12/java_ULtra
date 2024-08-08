@@ -9,7 +9,7 @@ public class TemperatureConverter {
 		
 		fahrenheit = (celsius * 9/5) + 32;
 		
-		System.out.println("fahrenheit"+fahrenheit);
+		System.out.println("fahrenheit  "+fahrenheit);
 	}
 
 }
