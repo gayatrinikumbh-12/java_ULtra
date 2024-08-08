@@ -6,11 +6,11 @@ public class MethodMaestro {
 		
 		public int square(int i)
 		{
-			int sqare = i * i;
+			int square = i * i;
 			 
-			System.out.println(i + " sqare is "+sqare);
+			System.out.println(i + " square is "+square);
 			
-			return sqare;
+			return square;
 		}
 		
 	}
