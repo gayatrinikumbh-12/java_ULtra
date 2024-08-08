@@ -12,7 +12,7 @@ public class scanner_s {
 		
 		System.out.println("Enter string");
 		
-		String a = sc.next();
+		String a = sc.nextLine();
 		
 		System.out.println("Entered string "+a);
 		
