@@ -14,9 +14,10 @@ public class input_sc {
 		
 		System.out.println("enter double ");
 		System.out.println(sc.nextDouble());
-		
-		System.out.println("enter string ");
+		sc.nextLine();
+		System.out.println(" enter string ");
 		System.out.println(sc.nextLine());
+		
 	}
 
 }
