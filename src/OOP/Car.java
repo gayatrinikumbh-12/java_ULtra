@@ -10,8 +10,14 @@ public class Car {
 		this.colour = c;
 		this.model = m;
 	}
+	
 	public Car()
 	{
+		
+	}
+	public void describe()
+	{
+		System.out.println("This is a "+ colour +" "+model);
 		
 	}
 	public static void main(String[] args) {
@@ -21,7 +27,8 @@ public class Car {
 		c1.colour = "black";
 		c1.model="Audi";
 		System.out.println(c1.colour+" "+c1.model);
-		
+		c.describe();
+		c1.describe();
 	}
 
 }
