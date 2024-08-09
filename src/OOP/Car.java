@@ -26,9 +26,9 @@ public class Car {
 		Car c1 = new Car();
 		c1.colour = "black";
 		c1.model="Audi";
-		System.out.println(c1.colour+" "+c1.model);
+		//System.out.println(c1.colour+" "+c1.model);
 		c.describe();
-		c1.describe();
+		//c1.describe();
 	}
 
 }
