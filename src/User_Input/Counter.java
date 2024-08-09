@@ -15,6 +15,8 @@ public class Counter {
 		Counter cv1 = new Counter();
 		Counter cv2= new Counter();
 		Counter cv3 = new Counter();
+		
+		System.out.println(count);
 	}
 
 }
