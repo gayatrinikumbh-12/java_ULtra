@@ -8,27 +8,27 @@ public class Car {
 	
 	
 
-	public String get_colour()
+	public String getColor()
 	{
 		return color  ;
 		
 	}
 	
 
-	public String get_model()
+	public String getModel()
 	{
 		return model  ;
 		
 	}
 	
-	public String set_colour(String cl)
+	public String setColor(String cl)
 	{
 		return this.color = cl ;
 		
 	}
 	
 
-	public String set_model(String ml)
+	public String setModel(String ml)
 	{
 		return this.model =ml ;
 		
