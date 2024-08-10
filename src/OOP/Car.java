@@ -21,16 +21,16 @@ public class Car {
 		
 	}
 	
-	public String setColor(String cl)
+	public void setColor(String cl)
 	{
-		return this.color = cl ;
+		this.color = cl ;
 		
 	}
 	
 
-	public String setModel(String ml)
+	public void setModel(String ml)
 	{
-		return this.model =ml ;
+		this.model =ml ;
 		
 	}
 	
@@ -43,12 +43,10 @@ public class Car {
 		
 		Car c = new Car();
 		
-		c.set_colour("red");
-		c.set_model("f6");
-		System.out.println(c.get_colour());
-		System.out.println(c.get_model());
-		
-		
+		c.setColor("yellow");
+		c.setModel("xuv");
+		System.out.println(c.getColor());
+		System.out.println(c.getModel());
 		
 	}
 	
