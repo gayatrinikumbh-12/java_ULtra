@@ -1,11 +1,11 @@
 package OOP;
 
-public class Car_p {
+public class Car {
 
 	String color;
 	String model;
 
-	public Car_p(String c, String m) {
+	public Car(String c, String m) {
 		this.color = c;
 		this.model = m;
 	}
@@ -17,7 +17,7 @@ public class Car_p {
 
 	public static void main(String[] args) {
 
-		Car_p c = new Car_p("White", "Audi");
+		Car c = new Car("White", "Audi");
 
 		c.describe();
 
