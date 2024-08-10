@@ -1,10 +1,10 @@
 package User_Input;
 
-public class Car {
+public class Car_u {
 	
 	String model;
 	
-	public Car(String s)
+	public Car_u(String s)
 	{
 		this.model = s;
 		System.out.println(this.model);
@@ -13,7 +13,7 @@ public class Car {
 		public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-			Car c = new Car("piku");
+			Car_u c = new Car_u("piku");
 			
 			
 	}
