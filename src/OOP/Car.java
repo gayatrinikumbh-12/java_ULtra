@@ -2,53 +2,27 @@ package OOP;
 
 public class Car {
 
-
 	private String color;
 	private String model;
-	
-	
 
-	public String getColor()
-	{
-		return color  ;
-		
+	public Car() {
+		this.color = "White";
+		this.model = "Sedan";
 	}
-	
 
-	public String getModel()
-	{
-		return model  ;
-		
+	public Car(String c, String m) {
+		this.color = c;
+		this.model = m;
 	}
-	
-	public void setColor(String cl)
-	{
-		this.color = cl ;
-		
-	}
-	
 
-	public void setModel(String ml)
-	{
-		this.model =ml ;
-		
-	}
-	
-	
-	
-	
-	
 	public static void main(String[] args) {
 
-		
 		Car c = new Car();
-		
-		c.setColor("yellow");
-		c.setModel("xuv");
-		System.out.println(c.getColor());
-		System.out.println(c.getModel());
-		
+		Car c1 = new Car("black", "ME");
+
+		System.out.println(c.color + " " + c.model);
+		System.out.println(c1.color + "  " + c1.model);
+
 	}
-	
 
 }
