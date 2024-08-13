@@ -2,9 +2,10 @@ package Advance_OOP;
 
 public class Dog implements Animal{
 
-	public void speak()
-	{
-		System.out.println("'Woof!");
+	
+	public void speak() {
+		
+		System.out.println("Woof!");
 	}
 	
 	public static void main(String[] args) {
