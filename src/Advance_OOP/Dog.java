@@ -1,6 +1,6 @@
 package Advance_OOP;
 
-public class Dog extends Animal{
+public class Dog extends Animal_ab_class{
 
 	
 	public void speak() {
