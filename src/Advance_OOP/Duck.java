@@ -1,6 +1,6 @@
 package Advance_OOP;
 
-public class Duck implements Animal {
+public class Duck implements Animal_II {
 
 	
 

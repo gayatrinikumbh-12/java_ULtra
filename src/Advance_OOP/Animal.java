@@ -1,14 +1,15 @@
 package Advance_OOP;
 
-public interface Animal {
+public abstract class Animal {
+
+	String name ;
+	
+	Animal(String n)
+	{
+		this.name = n ;
+		System.out.println("abstract class constuctor "+this.name );
+	}
+	 
 
 	
-	
-	default void eat()
-	{
-		
-		System.out.println("Eating..");
-	}
-	
-	void speak();
 }
