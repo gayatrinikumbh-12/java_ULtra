@@ -1,10 +1,14 @@
 package Advance_OOP;
 
-public class ImmutableCircle {
+public final class ImmutableCircle {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	final double radius = 8;
+	
+	ImmutableCircle(double r)
+	{
+		this.radius= r;
 	}
+	
+	
 
 }
