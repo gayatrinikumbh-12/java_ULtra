@@ -10,11 +10,15 @@ public interface Animal {
 		System.out.println("Eating..");
 	}
 	
+	 public default void speak()
+	 {}
+
 	 
 	
 	
 
 }
+
 
 
 
