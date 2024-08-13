@@ -1,6 +1,6 @@
 package Advance_OOP;
 
-public class Dog extends Animal_ab_class{
+public class Dog implements  Animal{
 
 	
 	public void speak() {
@@ -12,6 +12,7 @@ public class Dog extends Animal_ab_class{
 		// TODO Auto-generated method stub
 		Dog d = new Dog();
 				d.speak();
+				d.eat();
 	}
 
 }
