@@ -9,7 +9,10 @@ public abstract class Bird {
 		System.out.println("Eating...");
 	}
 	
-	
+	Bird(String name)
+	{
+		System.out.println("name "+ name);
+	}
 	
 
 }

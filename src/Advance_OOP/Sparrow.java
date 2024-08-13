@@ -1,30 +1,27 @@
 package Advance_OOP;
 
-public class Sparrow extends Bird implements Flyable {
+public class Sparrow extends Bird {
+
+	
+	Sparrow(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
 
 	
 
 	@Override
 	void sing() {
-		
+
 		System.out.println("Singing...");
 	}
-	
-	
 
-	@Override
-	public void fly() {
-		// TODO Auto-generated method stub
-		System.out.println("Flying...");
-	}
-	
-	
 	public static void main(String[] args) {
-	      
-		Sparrow s = new Sparrow();
+
+		Sparrow s = new Sparrow("piku");
 		s.eat();
 		s.sing();
-		s.fly();
+		
 
 	}
 
