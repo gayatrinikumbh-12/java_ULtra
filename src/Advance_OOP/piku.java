@@ -6,7 +6,7 @@ public class piku {
 		// TODO Auto-generated method stub
 
 		
-		Animal.eat();
+		Animal_i.eat();
 	
 		
 	}
