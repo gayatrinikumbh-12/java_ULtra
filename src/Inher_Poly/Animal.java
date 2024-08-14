@@ -12,16 +12,13 @@ public class Animal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Animal a = new Animal();
-		a.sound();
+		Animal a[] = {new Dog(), new Cat()};
 		
-		Dog d = new Dog();
+		for(Animal g:a)
+		{
+			g.sound();
+		}
 		
-		d.sound();
-		
-		
-		Cat c = new Cat();
-		c.sound();
 		
 	}
 	
