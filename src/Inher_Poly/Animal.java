@@ -1,12 +1,8 @@
 package Inher_Poly;
 
-public class Animal {
+public abstract class Animal {
 
-	void sound()
-	{
-		System.out.println("Animal sound...");
-	}
-	
+	abstract void sound();
 	
 	
 	public static void main(String[] args) {
