@@ -18,7 +18,11 @@ public class Dog extends Animal{
 		
 		Dog d = new Dog();
 		
+		d.eat();
 		
+		Animal dd = new Dog();
+		
+		dd.eat();
 	
     }
 	
