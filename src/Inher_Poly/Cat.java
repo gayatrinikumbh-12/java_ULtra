@@ -1,6 +1,6 @@
 package Inher_Poly;
 
-public class Cat extends Animal {
+public class Cat extends Animal_I {
 
 	
 	void sound()

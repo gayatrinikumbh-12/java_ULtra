@@ -1,22 +1,18 @@
 package Inher_Poly;
 
-public abstract class Animal {
+public class Animal {
 
-	abstract void sound();
 	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		Animal a[] = {new Dog(), new Cat()};
-		
-		for(Animal g:a)
-		{
-			g.sound();
-		}
-		
+	public void eat()
+	{
+		System.out.println("Eating...");
 		
 	}
 	
+	private void sleep()
+	{
+		System.out.println("Sleeping...");
+		
+	}
 	
 }

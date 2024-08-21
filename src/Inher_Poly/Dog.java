@@ -2,12 +2,18 @@ package Inher_Poly;
 
 public class Dog extends Animal{
 
-	
-	void sound()
-	{
-		System.out.println("Woof");
-	}
-	
-	
 
+
+	
+	public static void main(String[] args) {
+        // Your code here
+		
+		Dog d = new Dog();
+		d.eat();
+		
+	
+    }
+	
 }
+
+
