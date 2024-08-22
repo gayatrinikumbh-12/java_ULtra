@@ -3,5 +3,8 @@ package Inher_Poly;
 public interface Animal {
 
 	
-	void sound();
+	default void sound()
+	{
+		System.out.println("Animal sound");
+	}
 }

@@ -1,36 +1,23 @@
 package Inher_Poly;
 
-public class Dog implements Carnivore, Pet{
+
+
+public class Dog implements Animal{
 
 	
-	
-	
-	
-
-	@Override
-	public void name() {
-		// TODO Auto-generated method stub
-		System.out.println("Dog");
+	public void sound()
+	{
+		System.out.println("Woof");
 	}
-
-	@Override
-	public void eat() {
-		// TODO Auto-generated method stub
-		System.out.println("Eating meat");
-	}
+	
+	
 	
 	public static void main(String[] args) {
-        // Your code here
-		
+		// TODO Auto-generated method stub
 		Dog d = new Dog();
-		
-		
-		d.eat();
-		d.name();
-		
-	
-    }
-	
+		d.sound();		
+	}
+
 }
 
 
