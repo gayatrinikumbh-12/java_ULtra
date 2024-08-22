@@ -2,12 +2,11 @@ package Inher_Poly;
 
 
 
-public class Dog implements Animal{
+public class Dog extends Animal{
 
-	
-	public void sound()
+	//public void eat()
 	{
-		System.out.println("Woof");
+		
 	}
 	
 	
@@ -15,7 +14,7 @@ public class Dog implements Animal{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Dog d = new Dog();
-		d.sound();		
+		d.eat();		
 	}
 
 }

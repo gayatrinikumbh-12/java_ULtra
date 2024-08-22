@@ -1,10 +1,16 @@
 package Inher_Poly;
 
-public interface Animal {
+public class Animal {
 
 	
-	default void sound()
+	final void eat()
 	{
-		System.out.println("Animal sound");
+		System.out.println("Eating...");
 	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
 }
