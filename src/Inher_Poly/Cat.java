@@ -1,12 +1,13 @@
 package Inher_Poly;
 
-public class Cat extends Animal_I {
+public class Cat implements Animal{
 
-	
-	void sound()
-	{
+	public void sound() {
+		// TODO Auto-generated method stub
 		System.out.println("Meow");
 	}
+
+	
 	
 	
 	
