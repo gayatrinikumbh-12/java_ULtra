@@ -18,11 +18,13 @@ public class Dog extends Animal{
 		
 		Dog d = new Dog();
 		
-		d.eat();
-		
-		Animal dd = new Dog();
-		
-		dd.eat();
+		Cat c = new Cat();
+	
+		System.out.println(d instanceof Dog);
+		System.out.println( d instanceof Animal);
+		//System.out.println(c instanceof Animal);
+		//System.out.println( c instanceof Animal);
+	
 	
     }
 	

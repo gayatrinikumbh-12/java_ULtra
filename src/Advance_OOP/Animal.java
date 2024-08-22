@@ -1,6 +1,6 @@
 package Advance_OOP;
 
-public abstract class Animal {
+public  class Animal {
 
 	String name ;
 	
