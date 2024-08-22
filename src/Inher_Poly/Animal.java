@@ -3,14 +3,12 @@ package Inher_Poly;
 public class Animal {
 
 	
-	final void eat()
+	
+	void sound()
 	{
-		System.out.println("Eating...");
+		
+		System.out.println("Animal sound...");
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }
