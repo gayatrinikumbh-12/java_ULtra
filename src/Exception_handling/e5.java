@@ -1,5 +1,6 @@
 package Exception_handling;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 
@@ -9,16 +10,19 @@ public class e5 {
 		// TODO Auto-generated method stub
 
 		
-		 try( FileInputStream input = new FileInputStream("C:\\Users\\gnikumbh\\Downloads\\input.txt"))
+		 try( FileReader r = new FileReader("C:\\Users\\gnikumbh\\Downloads\\input.txt"))
 		 {
-			 FileReader r = new  FileReader("C:\\\\Users\\\\gnikumbh\\\\Downloads\\\\input.txt");
-			int s= r.read();
+			 BufferedReader b = new BufferedReader(r);
+			 String str = b.readLine();
+			 //FileReader r = new  FileReader("C:\\\\Users\\\\gnikumbh\\\\Downloads\\\\input.txt");
+			//int s= r.read();
 			//r.read(null)
-			 System.out.println(s);
+			 System.out.println(str);
 		 }
 		catch(Exception e)
 		 {
 			e.printStackTrace();
+			
 		 }
 	}
 
