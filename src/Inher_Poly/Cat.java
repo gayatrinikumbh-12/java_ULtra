@@ -7,7 +7,7 @@ public class Cat implements Animal_interface{
 	public static void main(String[] args) {
         // Your code here
 		Animal_interface c = new Cat();
-		c.sound();
+		Animal_interface.sound();
     }
 	
 	
