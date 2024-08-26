@@ -3,6 +3,7 @@ package Exception_handling;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class e5 {
 
@@ -14,12 +15,13 @@ public class e5 {
 		 {
 			 BufferedReader b = new BufferedReader(r);
 			 String str = b.readLine();
+			 
 			 //FileReader r = new  FileReader("C:\\\\Users\\\\gnikumbh\\\\Downloads\\\\input.txt");
 			//int s= r.read();
 			//r.read(null)
 			 System.out.println(str);
 		 }
-		catch(Exception e)
+		catch(IOException e)
 		 {
 			e.printStackTrace();
 			
