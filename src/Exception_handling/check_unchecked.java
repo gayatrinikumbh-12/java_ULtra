@@ -27,7 +27,18 @@ public class check_unchecked {
 		}
 		
 		
-		c.throwUncheckedException();
+		
+		try {
+			c.throwUncheckedException();
+		} catch (ArithmeticException a) {
+			// TODO Auto-generated catch block
+			a.printStackTrace();
+		}
+		
+		
+		
+		
+		
 	}
 
 }
