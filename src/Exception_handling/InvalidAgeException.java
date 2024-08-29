@@ -12,7 +12,7 @@ public class InvalidAgeException extends Exception {
 	public String toString()
 	{
 		
-		return "string msg";
+		return "string msg"+super.getMessage();
 	}
 	
 	public static void main(String[] args) {
