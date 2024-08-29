@@ -17,8 +17,10 @@ public class list_example {
 		myList.add(10);
 		myList.add(40);
 
-		Collections.sort(myList);
-
+		//Collections.sort(myList);
+		
+		Collections.sort(myList,  Collections.reverseOrder());
+		
 		System.out.println(myList);
 	}
 
