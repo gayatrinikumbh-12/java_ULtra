@@ -1,6 +1,6 @@
 package Exception_handling;
 
-public class InvalidAgeException extends RuntimeException {
+public class InvalidAgeException extends Exception {
 
 	public InvalidAgeException(String s )
 	{
@@ -11,7 +11,7 @@ public class InvalidAgeException extends RuntimeException {
 	
 	public String toString()
 	{
-		System.out.println("return msg");
+		
 		return "string msg";
 	}
 	
@@ -30,7 +30,7 @@ public class InvalidAgeException extends RuntimeException {
 		}
 		catch(InvalidAgeException i)
 		{
-			i.toString();
+			
 			i.printStackTrace();
 		}
 		
