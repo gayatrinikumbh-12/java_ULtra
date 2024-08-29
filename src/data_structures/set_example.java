@@ -1,6 +1,7 @@
 package data_structures;
 
 
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -9,7 +10,7 @@ public class set_example {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Set <Integer> mySet = new Set<Integer>();
+		Set <Integer> mySet = new HashSet<Integer>();
 		mySet.add(5);
 		mySet.add(15);
 		mySet.add(25);
@@ -18,7 +19,8 @@ public class set_example {
 	
 		mySet.remove(35);
 		
-		Iterator i = new Iterator();
+		Iterator i = mySet.iterator();
+		
 		
 		while(i.hasNext())
 		{
