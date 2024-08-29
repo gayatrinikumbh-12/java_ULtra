@@ -12,7 +12,7 @@ public class InvalidPasswordException extends RuntimeException {
 		// TODO Auto-generated method stub
 		String s = "piku";
 		InvalidPasswordException ip = new InvalidPasswordException(s);
-		if(s.length()<8)
+		if(s.length()<5)
 		{
 			throw new InvalidPasswordException ("invalid pass exception");
 		}
