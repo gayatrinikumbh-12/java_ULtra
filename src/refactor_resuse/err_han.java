@@ -1,5 +1,6 @@
 package refactor_resuse;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class err_han {
@@ -15,9 +16,10 @@ public class err_han {
 		try {
 			num = scanner.nextInt();
 			  System.out.println("You entered: " + num);
-		} catch (Exception e) {
+		} catch (InputMismatchException e) {
 			// TODO: handle exception
-			e.printStackTrace();
+			throw new InputMismatchException ("input entered is  not valid");
+			
 		}
       
 	}
