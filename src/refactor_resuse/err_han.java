@@ -19,9 +19,10 @@ public class err_han {
 		} catch (InputMismatchException e) {
 			// TODO: handle exception
 			e.getMessage();
-			throw new InputMismatchException ("input entered is  not valid");
+			
 			
 		}
+		scanner.close();
       
 	}
 
