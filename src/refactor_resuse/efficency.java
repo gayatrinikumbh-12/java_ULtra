@@ -2,8 +2,9 @@ package refactor_resuse;
 
 public class efficency {
 	
-	public static int sum(int numbers[],int sum)
+	public static int sum(int numbers[])
 	{
+		int sum =0;
 		 for (int i = 0; i < numbers.length; i++) {
 	            sum += numbers[i];
 	        }
@@ -12,8 +13,8 @@ public class efficency {
 	
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
-        int sum = 0;
+        
        
-        System.out.println("Sum: " + sum(numbers,sum));
+        System.out.println("Sum: " + sum(numbers));
     }
 }
